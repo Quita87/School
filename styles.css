@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+
+body {
+    background: #F3F6F9;
+    background: linear-gradient(315deg, rgba(87, 34, 205, 1) 0%, rgba(72, 69, 228, 1) 50%);
+    margin: 0;
+    font-family: 'Merriweather', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration-line: none;
+    color: #F2F0FF;
+    list-style: none;
+    align-content: flex-end;
+}
+
+.first-col {
+    font-family: 'Merriweather', sans-serif;
+    color: #F2F0FF;
+    margin: 8em;
+    font-size: medium;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.subhead {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-cta {
+    background: #ED4385;
+    font-family: 'Roboto', sans-serif;
+    color: #F2F0FF;
+    text-decoration: none;
+    text-decoration-color: #F3F6F9;
+    font-size: .75em;
+    padding: 0 2em;
+    border-radius: 5em;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 4px 4px 6px blue;
+}
+
+.hero-img {
+    padding-top: 3em;
+    width: 15%;
+}
+
+.footer {
+    background: #F3F6F9;
+    color: #5722CD;
+    text-align: center;
+    margin-bottom: -10em;
+    padding: 70px 0;
+}
